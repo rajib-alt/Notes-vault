@@ -1,8 +1,8 @@
 ---
-type: inbox
-tags: [status/inbox]
+title: Untitled
+type: idea
+position:
+  x: -480
+  'y': -200
 ---
 
-# Quick Captures
-
--
