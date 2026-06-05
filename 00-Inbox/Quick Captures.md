@@ -6,7 +6,7 @@ position:
   'y': -200
 ---
 
-```md
+
 # 30-Day SQL Grind: From Newbie to Boss Man (Marketing Edition)
 
 Listen up, fam. If you want to stop guessing and start seeing the real **P** (profit) in your marketing data, you need to stop relying on them basic dashboards and learn the **SQL pattern**. This 30-day roadmap is designed to get you from a "don't know nuttin'" beginner to an advanced analyst, spending **1-2 hours a day** on the grind. 
