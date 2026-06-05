@@ -1,0 +1,95 @@
+{
+  "nodes": [
+    {
+      "id": "home",
+      "type": "file",
+      "file": "Home Dashboard.md",
+      "x": 0,
+      "y": -240,
+      "width": 320,
+      "height": 170
+    },
+    {
+      "id": "inbox",
+      "type": "file",
+      "file": "00-Inbox/Quick Captures.md",
+      "x": -420,
+      "y": 0,
+      "width": 280,
+      "height": 150
+    },
+    {
+      "id": "sources",
+      "type": "file",
+      "file": "07-MOCs/MOC - Learning.md",
+      "x": 0,
+      "y": 0,
+      "width": 300,
+      "height": 150
+    },
+    {
+      "id": "concepts",
+      "type": "file",
+      "file": "06-Concepts/Concept - Active recall.md",
+      "x": 420,
+      "y": 0,
+      "width": 300,
+      "height": 150
+    },
+    {
+      "id": "project",
+      "type": "file",
+      "file": "03-Projects/Project - Freelance Pipeline.md",
+      "x": 0,
+      "y": 240,
+      "width": 320,
+      "height": 170
+    },
+    {
+      "id": "note",
+      "type": "text",
+      "text": "Vault flow:\\nCapture \u2192 Source \u2192 Concept \u2192 MOC \u2192 Project",
+      "x": 420,
+      "y": 240,
+      "width": 320,
+      "height": 150
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "fromNode": "home",
+      "fromSide": "bottom",
+      "toNode": "inbox",
+      "toSide": "top"
+    },
+    {
+      "id": "e2",
+      "fromNode": "inbox",
+      "fromSide": "right",
+      "toNode": "sources",
+      "toSide": "left"
+    },
+    {
+      "id": "e3",
+      "fromNode": "sources",
+      "fromSide": "right",
+      "toNode": "concepts",
+      "toSide": "left"
+    },
+    {
+      "id": "e4",
+      "fromNode": "concepts",
+      "fromSide": "bottom",
+      "toNode": "project",
+      "toSide": "top"
+    },
+    {
+      "id": "e5",
+      "fromNode": "project",
+      "fromSide": "right",
+      "toNode": "note",
+      "toSide": "left"
+    }
+  ]
+}
